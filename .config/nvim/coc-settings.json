@@ -1,0 +1,16 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "markdown",
+    "typescript",
+    "typescript.tsx",
+    "typescriptreact",
+    "yaml",
+    "go"
+  ],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets"
+}
