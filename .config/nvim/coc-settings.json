@@ -10,7 +10,16 @@
     "typescript.tsx",
     "typescriptreact",
     "yaml",
-    "go"
+    "go",
+    "dart"
   ],
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets"
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  }
 }
