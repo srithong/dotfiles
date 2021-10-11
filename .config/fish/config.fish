@@ -5,8 +5,6 @@ set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
 
-
-command -qv nvim && alias vim nvim
 set -gx EDITOR nvim
 
 set -gx PATH bin $PATH
